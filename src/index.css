@@ -1,0 +1,69 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap');
+
+
+:root {
+  font-family: 'DM Sans', sans-serif;
+  color: #243447;
+  background: #F7F4EF;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+
+  --terracotta: #C76B4A;
+  --terracotta-dark: #AE583A;
+
+  --slate: #243447;
+  --ivory: #F7F4EF;
+  --white: #FFFFFF;
+
+  --blue: #5278C7;
+  --blue-dark: #3D62AA;
+  --blue-light: #E4EAF8;
+
+  --sage: #668477;
+  --green: #3F8065;
+  --green-light: #E8EFE9;
+
+  --muted: #747C86;
+  --border: #E7E1D9;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: var(--ivory);
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+img {
+  max-width: 100%;
+}

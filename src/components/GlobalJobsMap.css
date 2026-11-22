@@ -1,0 +1,159 @@
+
+.global-jobs-map-section {
+  margin: 24px 0 30px;
+  padding: 22px;
+  background: #FFFFFF;
+  border: 1px solid #E7E1D9;
+  border-radius: 15px;
+}
+
+.global-jobs-map-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 17px;
+}
+
+.global-jobs-map-heading h3 {
+  margin: 5px 0 6px;
+  color: #243447;
+  font-family: 'Manrope', sans-serif;
+  font-size: 21px;
+}
+
+.global-jobs-map-heading p {
+  margin: 0;
+  color: #747C86;
+  font-size: 13px;
+}
+
+.map-location-count {
+  flex-shrink: 0;
+  padding: 8px 12px;
+  color: #3D62AA;
+  background: #E4EAF8;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.global-jobs-map {
+  height: 410px;
+  overflow: hidden;
+  border: 1px solid #E7E1D9;
+  border-radius: 12px;
+  background: #EAF0F2;
+}
+
+.global-jobs-leaflet {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.map-popup {
+  min-width: 190px;
+  color: #243447;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.map-popup > strong,
+.map-popup > span,
+.map-popup > b {
+  display: block;
+  margin-bottom: 4px;
+}
+
+.map-popup > strong {
+  font-size: 15px;
+}
+
+.map-popup > span,
+.map-popup small {
+  color: #747C86;
+  font-size: 12px;
+}
+
+.map-popup > b {
+  margin-top: 8px;
+  color: #3F8065;
+  font-size: 12px;
+}
+
+.map-popup ul {
+  margin: 8px 0;
+  padding-left: 17px;
+  font-size: 12px;
+}
+
+.map-popup li {
+  margin-bottom: 5px;
+}
+
+.map-popup button {
+  width: 100%;
+  margin-top: 8px;
+  padding: 9px 10px;
+  color: #FFFFFF;
+  background: #C76B4A;
+  border: 0;
+  border-radius: 7px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.map-popup button:hover {
+  background: #AE583A;
+}
+
+.map-legend {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 13px;
+  color: #747C86;
+  font-size: 12px;
+}
+
+.map-legend-dot {
+  width: 10px;
+  height: 10px;
+  background: #C76B4A;
+  border: 2px solid #F4D9CF;
+  border-radius: 50%;
+}
+
+.map-legend-note {
+  margin-left: auto;
+}
+
+.map-no-locations {
+  margin: 12px 0 0;
+  color: #747C86;
+  font-size: 12px;
+}
+
+@media (max-width: 600px) {
+  .global-jobs-map-section {
+    padding: 15px;
+  }
+
+  .global-jobs-map-heading {
+    align-items: flex-start;
+  }
+
+  .global-jobs-map-heading h3 {
+    font-size: 18px;
+  }
+
+  .global-jobs-map {
+    height: 320px;
+  }
+
+  .map-legend-note {
+    width: 100%;
+    margin-left: 18px;
+  }
+}
