@@ -53,6 +53,29 @@ GlobalHire is currently under development. Some features, including chat, use fr
 
 To create a user-friendly recruitment platform that makes the hiring journey easier for candidates and employers.
 
+## 📸 Project Screenshots
+
+### Homepage
+![GlobalHire Homepage](public/screenshots/Homepage.png)
+
+### Homepage
+![GlobalHire Analytics](public/screenshots/Analytics.png)
+
+### Homepage
+![GlobalHire Company profile](public/screenshots/Company profile.png)
+
+### Homepage
+![GlobalHire GlobalMap](public/screenshots/GlobalMap.png)
+
+### Homepage
+![GlobalHire Notification](public/screenshots/Notification.png)
+
+### Homepage
+![GlobalHire Profile Privacy](public/screenshots/Profile Privacy.png)
+
+### Homepage
+![GlobalHire Resume Builder](public/screenshots/Resume Builder.png)
+
 ## 👨‍💻 Author
 
 **GlobalHire Project**
