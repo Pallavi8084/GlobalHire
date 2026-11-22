@@ -1,16 +1,62 @@
-# React + Vite
+# 🌍 GlobalHire – Modern Recruitment Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+GlobalHire is a modern recruitment platform designed to bridge the gap between job seekers and employers. It aims to simplify the hiring process through an intuitive interface and useful recruitment tools.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Resume Builder:** Create and manage professional resumes.
+- **Candidate Profiles:** A dedicated interface for candidate information.
+- **Job Opportunities:** A platform experience for exploring job opportunities.
+- **Communication Chat:** Interactive candidate-employer chat interface with demo messaging.
+- **Responsive UI:** User-friendly interface designed for different screen sizes.
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React.js
+- JavaScript
+- CSS
+- Lucide React Icons
 
-## Expanding the ESLint configuration
+## 💻 Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Pallavi8084/GlobalHire.git
+```
+
+### 2. Navigate to the project directory
+
+```bash
+cd GlobalHire
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
+
+```bash
+npm run dev
+```
+
+Check your project's `package.json` scripts if your development command is different.
+
+## 📌 Project Status
+
+GlobalHire is currently under development. Some features, including chat, use frontend demo data and do not yet have backend integration.
+
+## 🎯 Project Goal
+
+To create a user-friendly recruitment platform that makes the hiring journey easier for candidates and employers.
+
+## 👨‍💻 Author
+
+**GlobalHire Project**
+
+---
+
+⭐ If you like this project, consider giving it a star!
